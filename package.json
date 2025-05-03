@@ -1,20 +1,21 @@
 {
-  "name": "server-assignment-cronj",
+  "name": "a-nawaz-node-todo",
   "version": "1.0.0",
   "description": "For server side REST API handling",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "A.Nawaz",
   "license": "ISC",
   "dependencies": {
-    "cookie-parser": "^1.4.6",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.0",
-    "mongodb": "^4.3.1"
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.16.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^3.1.0"
   }
 }
